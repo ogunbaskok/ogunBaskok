@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "test",
+        "parent": "",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "anasayfa": "//img[@alt='Website for automation practice']"
+        },
+        {
+          "products": "//i[@class='material-icons card_travel']"
+        },
+        {
+          "product_1": "//div[@class='productinfo text-center']/p[text()='Blue Top']"
+        },
+        {
+          "product_2": "//div[@class='productinfo text-center']/p[text()='Men Tshirt']"
+        },
+        {
+          "addToCart": "//a[@data-product-id='1']"
+        },
+        {
+          "addToCart2": "//a[@data-product-id='2']"
+        },
+        {
+          "continueShopping": "//button[@data-dismiss='modal']"
+        },
+        {
+          "viewCart": "//*[@id='cartModal']/div/div/div[2]/p[2]/a/u"
+        },
+        {
+          "verify_products_1": "//tr[@id='product-1']"
+        },
+        {
+          "verify_products_2": "//tr[@id='product-2']"
+        },
+        {
+          "verify_product1_prices": "//tr[@id='product-1']/td[@class='cart_price']"
+        },
+        {
+          "verify_product1_quantity": "//tr[@id='product-1']/td[@class='cart_quantity']"
+        },
+        {
+          "verify_product1_total": "//tr[@id='product-1']/td[@class='cart_total']"
+        },
+        {
+          "verify_product2_prices": "//tr[@id='product-2']/td[@class='cart_price']"
+        },
+        {
+          "verify_product2_quantity": "//tr[@id='product-2']/td[@class='cart_quantity']"
+        },
+        {
+          "verify_product2_total": "//tr[@id='product-2']/td[@class='cart_total']"
+        },
+        {
+          "close_popUp": "#dismiss-button"
+        },
+        {
+          "cartItem": "//*[@class='cart_product']"
+        }
+
+      ]
+    }
+  ]
+}
