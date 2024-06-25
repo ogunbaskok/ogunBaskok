@@ -1,0 +1,4 @@
+framework\BaseTest.class
+framework\Parser.class
+framework\CommonLib.class
+framework\AutomationConstants.class
